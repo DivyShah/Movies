@@ -9,6 +9,8 @@ import java.io.Serializable;
 public class MovieDetails implements Serializable {
     private String original_title;
     private String overview;
+     private double vote_average;
+    private String release_date;
 
     public String getPoster_path() {
         return poster_path;
@@ -51,6 +53,5 @@ public class MovieDetails implements Serializable {
         this.release_date = release_date;
     }
 
-    private double vote_average;
-    private String release_date;
+   
 }
